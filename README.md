@@ -1,7 +1,18 @@
 # functional-programming
 
+Project? uitleg
 
-Samenwerking - Supp groep 3
+
+Welke features?
 
 
-Uitzoeken hoe je data moet opschonen.
+
+Welke data gebruik ik?
+
+
+Hoe werkt het?
+
+
+
+Credits licentie?
+
