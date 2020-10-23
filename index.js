@@ -18,13 +18,29 @@ let geenstudieschuldweghalen = studieschuld.map(vervang => vervang.replace("Geen
 
 
 
-
-
 //scannen door items en alle letters omzetten naar hoofdletters
 let opschonen = specialeantwoorden.map(test =>  test.toUpperCase())
 
 //aanroepen van de functie merkChecker
 const schonemerken = opschonen.map(entry => merkChecker(entry));
+
+
+
+///CREDITS: sjors wijsman aka Erdogoat
+///Door alle SurveyAnswers loopen en vervolgens bekijken of de automerken ermee overeenkomen daarna returnen
+///naar een nieuwe variable
+
+function merkChecker(string){
+  for (merk of automerken) {
+    if (string.includes(merk)) {
+        return merk
+    }
+
+  }
+  return "niet ingevuld"
+}
+
+
 
 
 
@@ -54,15 +70,6 @@ console.table(merkenData);
 ///CREDITS: sjors wijsman aka Erdogoat
 ///Door alle SurveyAnswers loopen en vervolgens bekijken of de automerken ermee overeenkomen daarna returnen
 ///naar een nieuwe variable
-function merkChecker(string){
-  for (merk of automerken) {
-    if (string.includes(merk)) {
-        return merk
-    }
-
-  }
-  return "niet ingevuld"
-}
 
 
 //function checkForMerk(string) {
