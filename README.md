@@ -1,7 +1,7 @@
 # Functional Programming
 Hier vind je al mijn opdrachten over functional programming, in de [Wiki](https://github.com/tilltheant/functional-programming/wiki) ga ik dieper in op mijn leerproces en andere onderwerpen! 
 
-***
+
 
 ## Intro
 
@@ -22,7 +22,6 @@ _In deze map heb ik gewerkt om alle functies apart op te stellen in zijn eigen j
 
 _In deze map vind je de lessen van het opschonen van vieze data. De data is afkomstig van Data information design map._
 
-***
 
 ## Project
 Voor de volkskrant heb ik als opdracht om met het onderwerp "De auto in de stad" een datavisualisatie te maken die interessant is, maar ook nieuwe inzichten bied die De Volkskrant weer kan gebruiken om een artikel over te schrijven. Deze kan worden gepubliseerd en wellicht gebruikt worden om achter andere inzichten te komen.
