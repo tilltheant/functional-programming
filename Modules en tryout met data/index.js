@@ -5,6 +5,8 @@ import {filteren, tellenmaar} from "./Sorteren.js";
 // 2 - de data scannen en splitten
 // 3 - profit
 
+
+
 console.log("test")
 
 dataophalen (parkingdataspecialdays)

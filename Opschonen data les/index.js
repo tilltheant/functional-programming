@@ -13,7 +13,7 @@ const studieschuld = SurveyAnswers.map(antwoord => antwoord[debt])
 let geenstudieschuldweghalen = studieschuld.map(vervang => vervang.replace("Geen studieschuld", "0").replace("Meer dan 25000", "+25000"));
 
 
- console.log(geenstudieschuldweghalen)
+console.log(geenstudieschuldweghalen)
 
 
 
@@ -39,7 +39,6 @@ function merkChecker(string){
   }
   return "niet ingevuld"
 }
-
 
 
 
