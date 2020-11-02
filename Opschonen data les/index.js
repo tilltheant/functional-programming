@@ -26,7 +26,7 @@ const schonemerken = opschonen.map(entry => merkChecker(entry));
 
 
 
-///CREDITS: sjors wijsman aka Erdogoat
+///CREDITS: sjors wijsman
 ///Door alle SurveyAnswers loopen en vervolgens bekijken of de automerken ermee overeenkomen daarna returnen
 ///naar een nieuwe variable
 

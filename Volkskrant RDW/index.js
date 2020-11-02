@@ -9,7 +9,7 @@ const selectiedata = "uuid"
 //zet de parkeerdata om naar een array
 const rdwd = parkingdata.map(answer => answer)
 
-
+console.log(rdwd)
 //bron: https://stackoverflow.com/questions/38750705/filter-object-properties-by-key-in-es6
 const allowed = ['name', 'identifier'];
 
@@ -34,11 +34,18 @@ dataophalen (parkeergebied)
 //console.log (locatievanparkeergebied)
 })
 
-function combi (data, kolom){
-  let neW = [];
-  neW = rdwd.map(x => x["name"]);
-  console.log(neW)
-}
+
+const combinedData = data.map((item, i) => Object.assign({}, item, data2[i]))
+
+
+const combinedDataSpread = data.map(item => {
+ return {
+ ...item,
+ ...data2.filter(data => data.id === item.id)[0]
+ }
+})
+console.log(combinedData)
+console.log(combinedDataSpread)
 
 
 
