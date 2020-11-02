@@ -5,6 +5,9 @@ let kolomnaam = "huisDieren";
 //De data van de SurveyAnswers en van mijn onderwerp in een array zetten zodat ik ermee kan werken
 const viezestring = SurveyAnswers.map(answer => answer[kolomnaam]);
 
+//HArdcoded namen die weg moeten uit de array
+const deleteNamen = ["PIPPA. ", "GIMLI. ", "MOLLY. ","TOMMIE.","CODY.","CHIP.","YOUP.","DOPEY","LIZZY.","HENK,","JENNIE.","JACK","SKY","XAVIERHA","LINDE.","MAX.","JOSEPHINE:","SIEPIE","NOA","SIEPIE.","ABEL","BABSIE","MIKE:","TOM:","JIP.","BOBI","MONSTER","MIMI","SIMBA","SYP","SIEB","TIGO","LOLA.","MAX","HERO.","HONT",""]
+
 
 //Eerst alles naar hoofdletters veranderen
 let naarhoofdletters = viezestring.map(test =>  test.toUpperCase())
@@ -19,7 +22,12 @@ deleteDit.forEach(trash => {
 
 
 
-const newArray = namenweghalen(naarhoofdletters)
+
+
+console.log(newArray());
+console.log(naarhoofdletters);
+
+
 
 
 function namenweghalen (data){
@@ -32,4 +40,10 @@ return item
 })
 }
 
-console.log(naarhoofdletters);
+//Code samen met CHelsea gemaakt, Dit stukje code zoekt naar namen van const: deleteNamen en vervangt ze met "" weghalen van de namen.
+function newArray (data) {
+ deleteNamen.forEach(name => {
+ naarhoofdletters = naarhoofdletters.map(item => item.replace(name, ""))
+ })
+ return naarhoofdletters
+}

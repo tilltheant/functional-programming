@@ -9,22 +9,8 @@ const selectiedata = "uuid"
 //zet de parkeerdata om naar een array
 const rdwd = parkingdata.map(answer => answer)
 
-console.log(rdwd)
-//bron: https://stackoverflow.com/questions/38750705/filter-object-properties-by-key-in-es6
-const allowed = ['name', 'identifier'];
 
-const filtered = Object.entries(rdwd).filter(key => allowed.includes(key)).reduce((obj, key) => {
-    obj[key] = rdwd[key];
-    return obj;
-  }
-  , {});
 
-let newArr = rdwd.filter(function (x){
-  return x.name == "P+R";
-}
-);
-
-console.log(newArr)
 
 dataophalen (parkeergebied)
 .then(data => {
@@ -35,16 +21,14 @@ dataophalen (parkeergebied)
 })
 
 
-const combinedData = data.map((item, i) => Object.assign({}, item, data2[i]))
 
-
-const combinedDataSpread = data.map(item => {
+const combinedDataSpread = rdwd.map(item => {
  return {
  ...item,
- ...data2.filter(data => data.id === item.id)[0]
+ ...parkeergebied.filter(data => data.identifier === item.identifier)[0]
  }
 })
-console.log(combinedData)
+
 console.log(combinedDataSpread)
 
 
@@ -68,20 +52,6 @@ async function dataophalen(url) {
 
 }
 */
-
- function combineren (parkeergebied, rdwd){
-   const resultaat = [];
-   rdwd.forEach((item) => {
-     if(parkeergebied.includes(item.identifier)) {
-    let waarde = item.name;
-     }
-     resultaat.push(waarde);
-   });
-
- return resultaat;
- console.log(resultaat)
-}
-
 
 function filteren (data, column){
   return data.map(uitkomst => uitkomst[column])
