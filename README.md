@@ -38,7 +38,7 @@ Ik wil met de dataset mijn hoofdvraag beantwoorden: Wat is het gemiddelde van de
 De dataset verander ik naar een visualisatie met D3 een aantal voorbeelden van hoe ik mijn visualisatie wil hebben:
 
 Bij een website heb ik inspiratie opgedaan van wat ik precies wil
-<img src="https://datavizproject.com/wp-content/uploads/2015/10/6-Grouped-Bar-Chart.png" width="500" height="500" >
+<img src="https://datavizproject.com/wp-content/uploads/2015/10/6-Grouped-Bar-Chart.png" width="500" height="500" align="left" >
 
 
 ## Credits licentie.
