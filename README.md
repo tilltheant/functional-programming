@@ -29,12 +29,20 @@ Voor de volkskrant heb ik als opdracht om met het onderwerp "De auto in de stad"
 
 ## De Data die ik gebruik.
 De date die ik gebruik zijn afkomstig van RDW 
+Voor een uitgebreidere uitleg kan je gaan naar [WIKI Werkwijze](https://github.com/tilltheant/functional-programming/wiki/%5B2.1%5DWerkwijze-in-fases)
+Ik wil met de dataset mijn hoofdvraag beantwoorden: Wat is het gemiddelde van de tijdsduur aan parkeren in de amsterdam tijdens kerst in vergelijking met normale dagen?
 
 [RDW Speciale dagen dataset](https://opendata.rdw.nl/Parkeren/Open-Data-Parkeren-SPECIALE-DAG/hpi4-mynq)
 
 ## Hoe werkt het?
+De dataset verander ik naar een visualisatie met D3 een aantal voorbeelden van hoe ik mijn visualisatie wil hebben:
 
+Bij een website heb ik inspiratie opgedaan van wat ik precies wil
+<img src="https://datavizproject.com/wp-content/uploads/2015/10/6-Grouped-Bar-Chart.png" width="500" height="500" >
 
 
 ## Credits licentie.
+Sjors Wijsman.
+De docenten van dit blok.
+De Studentassistenten.
 
