@@ -41,7 +41,7 @@ return item
 }
 
 //Code samen met CHelsea gemaakt, Dit stukje code zoekt naar namen van const: deleteNamen en vervangt ze met "" weghalen van de namen.
-function newArray (data) {
+function newArray () {
  deleteNamen.forEach(name => {
  naarhoofdletters = naarhoofdletters.map(item => item.replace(name, ""))
  })

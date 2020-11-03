@@ -1,4 +1,4 @@
-const data = [
+const parkingData = [
     {
       "name": "P+R Station Appingedam (Appingedam)",
       "identifier": "fc749565-1fe9-42f0-920a-3b4e718d62f9",
