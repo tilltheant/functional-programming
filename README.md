@@ -34,6 +34,8 @@ Ik wil met de dataset mijn hoofdvraag beantwoorden: Wat is het gemiddelde van de
 
 [RDW Speciale dagen dataset](https://opendata.rdw.nl/Parkeren/Open-Data-Parkeren-SPECIALE-DAG/hpi4-mynq)
 
+(De informatie hier kan veroudert zijn, voor de updated versie verwijs ik je naar mijn [Frondend-data repo](https://github.com/tilltheant/FrontEndData)
+
 ## Hoe werkt het?
 De dataset verander ik naar een visualisatie met D3 een aantal voorbeelden van hoe ik mijn visualisatie wil hebben:
 
