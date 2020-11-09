@@ -34,11 +34,14 @@ Ik wil met de dataset mijn hoofdvraag beantwoorden: Wat is het gemiddelde van de
 
 [RDW Speciale dagen dataset](https://opendata.rdw.nl/Parkeren/Open-Data-Parkeren-SPECIALE-DAG/hpi4-mynq)
 
+(De informatie hier kan veroudert zijn, voor de updated versie verwijs ik je naar mijn [Frondend-data repo](https://github.com/tilltheant/FrontEndData)
+
 ## Hoe werkt het?
 De dataset verander ik naar een visualisatie met D3 een aantal voorbeelden van hoe ik mijn visualisatie wil hebben:
 
-Bij een website heb ik inspiratie opgedaan van wat ik precies wil
-<img src="https://datavizproject.com/wp-content/uploads/2015/10/6-Grouped-Bar-Chart.png" width="500" height="500" align="left" >
+Dit zijn de visuaisaties die ik heb geschets, ongeveer dit wil ik doen met de dataset
+<a href="https://ibb.co/txGC0PY"><img src="https://i.ibb.co/Gt6PZ3C/2020-11-06-4.png" alt="2020-11-06-4" border="0"></a>
+<a href="https://ibb.co/yQtgX7H"><img src="https://i.ibb.co/QKLYfty/2020-11-06-5.png" alt="2020-11-06-5" border="0"></a>
 
 
 ## Credits licentie.
