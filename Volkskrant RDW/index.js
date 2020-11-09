@@ -14,7 +14,7 @@ async function getData() {
   // const data2 = await data2ophalen()
 
   const filtered = filterenhelearray(data)
-
+// code ssamen gemaakt met chelsea en gijs
 const combinedData = filtered.map(item => {
   const thisParkingData = parkingData.find(garage => garage.identifier === item.uuid)
 
