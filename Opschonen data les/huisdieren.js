@@ -8,12 +8,12 @@ const viezestring = SurveyAnswers.map(answer => answer[kolomnaam]);
 //HArdcoded namen die weg moeten uit de array
 const deleteNamen = ["PIPPA. ", "GIMLI. ", "MOLLY. ","TOMMIE.","CODY.","CHIP.","YOUP.","DOPEY","LIZZY.","HENK,","JENNIE.","JACK","SKY","XAVIERHA","LINDE.","MAX.","JOSEPHINE:","SIEPIE","NOA","SIEPIE.","ABEL","BABSIE","MIKE:","TOM:","JIP.","BOBI","MONSTER","MIMI","SIMBA","SYP","SIEB","TIGO","LOLA.","MAX","HERO.","HONT",""]
 
-
-//Eerst alles naar hoofdletters veranderen
-let naarhoofdletters = viezestring.map(test =>  test.toUpperCase())
-
 //Weghalen van onnodige tekens
 const deleteDit = ["GEEN","","GEEN HUISDIERKAT", "-","N>V>T>","'"]
+
+
+//Eerst alles naar hoofdletters veranderen
+let naarhoofdletters = schoonmaken(viezestring);
 
 // scannen over de naarhoofdletters en dan alles vervangen wat niet van toepassing is
 deleteDit.forEach(trash => {
@@ -29,6 +29,9 @@ console.log(naarhoofdletters);
 
 
 
+function schoonmaken(data){
+  data.map(test =>  test.toUpperCase())
+}
 
 function namenweghalen (data){
   naarhoofdletters.map(item => {
